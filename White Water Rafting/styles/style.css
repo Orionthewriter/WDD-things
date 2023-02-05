@@ -1,5 +1,5 @@
 div {max-width: 1600px;
-   
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #E94F37;
     margin: 0 auto; }
 header{
@@ -9,19 +9,48 @@ header{
 #content{
     margin: 0 auto;
 }
+.book,.join{
+    font-size: 18px;
+    border: 5px solid #2af80f;
+}
+.home-title{
+font-size: 2em;
+margin-top: 10px;
+}
+.msg {
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ line-height: 1.5em;
+ padding: 35px;
+}
+.msg p{padding-bottom: 15px;}
 #head{text-align: left;
     background-color:#cE668F80;}
 nav {text-align: left;}
 #hero{text-align: center;}
-
+#logo_link{
+    padding-top: 5px;
+}
 #hero-msg h4{text-align: center;}
 #hero-msg h1{text-align: center;}
-nav a {text-align: center;}
+nav a {text-align: center;
+text-decoration: none;
+text-align: center;
+padding: 35px;
+}
 .button-box{text-align: center;}
-main section{text-align: center;}
+main section img{text-align: center;
+    box-sizing: border-box;
+}
 body{
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
     text-align: center;
+}
+h2{
+    margin:0
 }
 nav a:hover{
     background-color:hsla(207, 100%, 75%, 0.651);
@@ -33,10 +62,15 @@ nav a:hover{
 .logo{
     width: 80px;
 }
-
+.book,.join{
+    border-radius: 5px;
+}
 nav a
 .book, .join
-footer a{ text-decoration: none;}
+footer a{ 
+    margin-top: 50px;
+    padding: 15px 30px;
+    text-decoration: none;}
 footer p{
     font-size: 1.2em;
 }
@@ -45,3 +79,23 @@ footer p a:hover{
     width: 80px;
     height: 725px;
 }
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+h2{
+    margin:0;
+}
+.rivers-card, .camping-card, .rapids-cards {margin: 200px 0;
+
+}
+.card-img{
+ border: 10px solid rgb(0, 0, 0);
+}
+.icon{padding-top: 35px;}
+footer{padding: 25px 50px;
+margin-top: 200px;
+}
+footer .social img {padding-top: 15px;}
