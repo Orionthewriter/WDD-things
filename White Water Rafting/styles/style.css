@@ -26,7 +26,7 @@ margin-top: 10px;
  padding: 35px;
 }
 .msg p{padding-bottom: 15px;}
-#head{text-align: left;
+#head{
     background-color:#cE668F80;}
 nav {text-align: left;
     display: flex;
@@ -90,6 +90,7 @@ nav a:hover{
 
 .logo{
     width: 80px;
+    i
 }
 .book,.join{
     border-radius: 5px;

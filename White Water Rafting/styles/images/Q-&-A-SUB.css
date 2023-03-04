@@ -1,0 +1,86 @@
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ff2525; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+  }
+  
+  #myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #000000;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #cE668F80;
+  }
+header{
+    background-color:#cE668F80;
+    text-align:center;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+footer{padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+  div {max-width: 1600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background-color: #E94F37;
+     margin: 0 auto; }
+nav a {text-align: center;
+      text-decoration: none;
+      text-align: center;
+      padding: 35px;
+      }
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+      }
+      .book,.join{
+        font-size: 18px;
+        border: 5px solid #2af80f;
+    }
+    nav a:hover{
+      background-color:hsla(207, 100%, 75%, 0.651);
+  }
+  footer .social img {padding-top: 15px;
+  }
+  nav a
+  .book, .join
+  footer a{ 
+      margin-top: 50px;
+      padding: 15px 30px;
+      text-decoration: none;}
+      h4 {
+        display: block;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+      #hero-msg h4{text-align: center;
+        color: white;
+    }
+    #hero {
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr 3fr 1fr;
+      margin-top: -100px;
+  }
+  #hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
