@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="ref.css">  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ref.css">
+    <script src="reference.js"></script>
+
+</head>
+<body>
+  <input type="text" id="myInput" onkeyup="mysearchFunction()" placeholder="Search for names..">
+
+  <table id="myTable">
+    <tr class="header">
+      <th style="width:auto;">Name</th>
+      <th style="width:auto;">Home</th>
+      <th style="width:auto;">Role</th>
+      <th style="width:auto;">Icon</th>
+    </tr>
+    <tr>
+      <td>Orion</td>
+      <td>Nava</td>
+      <td>Watcher/Scribe</td>
+      <td><a href="">LOGO</a></td>
+    </tr>
+
+  </table>
+  <table class="table" id = "myTable">
+    <tr>
+      <td> <b> Name </b> </td>
+      <td> <b> Home </b> </td>
+      <td> <b> Role </b> </td>
+      <td> <b> Iconography </b> </td>
+    </tr>
+</table>
+
+<form action="">
+    <input type="text" id ="userID" />
+    <input type="text" id ="firstname" />
+    <input type="text" id ="lastname" />
+    <input type="text" id="LOGO"/>
+    <input type="submit" onclick="return fillTable();" />
+    <input type="button" value="DELETE ROW" onclick="return myDeleteFunction();" />
+</form>
+
+  </ul>
+
+
+
+</body>
+
+</html>
