@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="reference.js"></script>
+    <link rel="stylesheet" href=MMLP.css>aw
 </head>
 <body>
     <nav>
@@ -21,17 +23,11 @@
             <input type="text" id="myInput" onkeyup="mysearchFunction()" placeholder="Search for names..">
           
             <table id="myTable">
-              <tr class="header">
-                <th style="width:auto;">Name</th>
-                <th style="width:auto;">Home</th>
-                <th style="width:auto;">Role</th>
-                <th style="width:auto;">Icon</th>
-              </tr>
               <tr>
                 <td>Orion</td>
                 <td>Nava</td>
                 <td>Watcher/Scribe</td>
-                <td><a href="">LOGO</a></td>
+                <td>LOGO</td>
               </tr>
           
             </table>
@@ -51,7 +47,7 @@
               <input type="text" id="LOGO"/>
               <input type="submit" onclick="return fillTable();" />
               <input type="button" value="DELETE ROW" onclick="return myDeleteFunction();" />
-              <input type="button" value="Convert to CSV"/>
+              <input type="button" value="Convert to CSV" onclick="tableToCSV()"/>
           </form>
           
             </ul>
