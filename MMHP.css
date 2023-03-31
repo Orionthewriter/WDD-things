@@ -24,6 +24,7 @@
     text-align: center;
     max-width: 1080px;
     background-color: #747474;
+    margin: 0 auto;
   }
   base{
     grid-template-columns: 60px 60px;
@@ -56,3 +57,4 @@ nav a:link, nav a:visited {
 .p1{  grid-template-columns: 60px 60px;
     grid-template-rows: 30px;
 }
+.msg{color:#fae41ff1}
